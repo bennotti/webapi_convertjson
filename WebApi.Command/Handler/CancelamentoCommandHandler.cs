@@ -1,8 +1,8 @@
 ﻿namespace WebApi.Command.Handler
 {
-    public class CancelamentoCommandHandler : AbstractCommandHandler<CancelamentoJsonComand>
+    public class CancelamentoCommandHandler : AbstractCommandHandler<CancelamentoJsonCommand>
     {
-        public CancelamentoCommandHandler(CancelamentoJsonComand classReference, string pathModulo) 
+        public CancelamentoCommandHandler(CancelamentoJsonCommand classReference, string pathModulo) 
             : base(classReference, pathModulo)
         {
         }

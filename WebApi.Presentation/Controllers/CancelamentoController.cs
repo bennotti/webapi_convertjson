@@ -41,7 +41,7 @@ namespace WebApi.Presentation.Controllers
 
             try
             {
-                var CancelamentoCommandHandler = new CancelamentoCommandHandler(new CancelamentoJsonComand
+                var CancelamentoCommandHandler = new CancelamentoCommandHandler(new CancelamentoJsonCommand
                 {
                     CPF = cancelamento.CPF,
                     NumeroAvaliacao = cancelamento.NumeroAvaliacao
