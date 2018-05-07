@@ -20,8 +20,7 @@ namespace WebApi.Command.Handler
             var settings = new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.All };
             string jsonData = JsonConvert.SerializeObject(ClassReference, Formatting.None, settings);
 
-            File.WriteAllText(string.Format(PathModulo), jsonData); 
-
+            File.WriteAllText(PathModulo, jsonData); 
         }
     }
 }
